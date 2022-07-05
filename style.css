@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Finlandica', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .flexible-container{
     display: flex;
@@ -16,33 +16,36 @@ body{
 
 
 h1{
-    font-size: 50px;
+    font-size: 65px;
     font-weight: 900;
+    line-height: 10px;
 }
 h2{
     font-size: 30px;
 }
 p{
     font-size: 24px;
+    text-align: justify;
 }
 .top-head{
     margin-top: 100px;
     margin-left: 100px;
 }
 .color-tomato{
-    color: rgb(240, 92, 65);
+    color: #FB8B47;
 }
 .color-gray{
     color: gray;
 }
 .btn{
     text-decoration: none;
-    padding: 15px 40px;
-    background-image: linear-gradient(orange, tomato);
-    border-radius: 10px;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right,#FB9149, #FE492E);
+    border-radius: 30px;
     color: white;
     margin-top: 20px;
     display: inline-block;
+    font-size: 20px;
 }
 
 .about{
@@ -52,6 +55,10 @@ p{
 }
 .about-me{
     padding-top: 150px;
+    margin-right: 100px;
+}
+.about-me p{
+    margin-bottom: 60px;
 }
 .text-center{
     text-align: center;
@@ -76,7 +83,7 @@ p{
     width: 100%;
 }
 .card p{
-    font-weight: 100;
+    font-weight: 300;
 }
 .width-33{
     width: 33%;
@@ -91,9 +98,9 @@ p{
 }
 
 .footer{
-    background-color: black;
+    background-color: #0B0D17;
     color: white;
-    height: 300px;
+    height: 250px;
     padding-top: 20px;
 }
 .footer p{
