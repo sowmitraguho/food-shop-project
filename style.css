@@ -20,8 +20,7 @@ h1{
     font-weight: 900;
 }
 h2{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
 }
 p{
     font-size: 24px;
@@ -32,6 +31,9 @@ p{
 }
 .color-tomato{
     color: rgb(240, 92, 65);
+}
+.color-gray{
+    color: gray;
 }
 .btn{
     text-decoration: none;
@@ -59,7 +61,41 @@ p{
     margin: 0 auto;
     color: gray;
 }
+.recipies{
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .card{
-    width: 80%;
-    padding: 10px;
+    width: 43%;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 30px;
+}
+.card img{
+    width: 100%;
+}
+.card p{
+    font-weight: 100;
+}
+.width-33{
+    width: 33%;
+    padding: 2% 8%;
+}
+
+.follower{
+    
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 30px;
+    
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    padding-top: 20px;
+}
+.footer p{
+    font-weight: 100;
 }
